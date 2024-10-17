@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pet Haven</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Playwrite+CU:wght@100..400&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Pet<span>Haven</span></h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pets">Pet for Adoption</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Home section -->
+    <section id="home">
+      <h1>Welcome to our pet adoption center</h1>
+      <p>Your new best friend is waiting for you!</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are dedicated to finding loving homes for pets in need.</p>
+      <p>Our mission is to connect pets with caring families.</p>
+    </section>
+
+    <!-- Pet Section -->
+
+    <section class="pets" id="pets">
+      <div class="pet">
+        <img
+          src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1710016378/pets/04-furry-dog-041111_dhhoqw.jpg"
+          alt="Dog"
+        />
+        <h3>Dogs</h3>
+        <p>Friendly and loyal companions.</p>
+      </div>
+
+      <div class="pet">
+        <img
+          src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1727819926/pets/cat.jpg"
+          alt="Cat"
+        />
+        <h3>Cats</h3>
+        <p>Independent and playful creatures.</p>
+      </div>
+
+      <div class="pet">
+        <img
+          src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1727820107/pets/rabbit.webp"
+          alt="Rabbit"
+        />
+        <h3>Rabbits</h3>
+        <p>Soft and cuddly friends.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Coded by Adeolaoluwa</p>
+      <p>&copy; 2024 Pet Adoption Center. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
